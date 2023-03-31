@@ -1,0 +1,268 @@
+@font-face {
+    font-family: 'EuclidCircular';
+    src: url(euclid-circular/Euclid\ Circular\ B\ Medium.ttf);
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'EuclidCircular';
+}
+html
+{
+    scroll-behavior: smooth;
+    transition-duration: 10ms;
+}
+
+/*Navigation*/
+.navcontainer
+{
+    width: 85%;
+    box-sizing: border-box;
+     background-color: #ECF5E0;
+     float: right;
+}
+.logo
+{   
+    margin-left: 10px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+nav input[type=text]
+{
+    padding: 6px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    font-size: 17px;
+    border-radius: 7px;
+    display: flex;
+}
+
+/*menu*/
+
+.sidenav  {
+    height: 200%;
+    width: 13.5%;
+    background: #ffffff;
+    position: fixed;
+    border: none;
+    padding-left: 10px;
+  }
+  .sidenav a {
+    padding: 6px 1px 10px 2px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    color: #636363;
+    display: block;
+  }
+  .sidenav :hover
+   {
+    background-color: #ececec;
+  }
+  .menu-icon
+{
+    width: 15px;
+    display: none;
+    z-index: 10;
+}
+  #dash
+  {
+    margin-right: 20px;
+    margin-left: 5px;
+  }
+  #produce
+  {
+    margin-right: 20px;
+    margin-left: 5px;
+  }
+  #transact
+  {
+    margin-right: 20px;
+    margin-left: 5px;
+  }
+  #report
+  {
+    margin-right: 20px;
+    margin-left: 5px;
+  }
+  #support
+  {
+    margin-top: 76px;
+    width: 100%;
+  }
+
+  /*dash*/
+
+  .main
+   {
+    margin-left: 191px; 
+    font-size: 20px; 
+    padding-left: 60px;
+    color: #394532;
+    margin-top: 43px;
+  }
+
+  #home
+  {
+    margin-left: 40px;
+    height: 23px;
+    position: absolute;
+    margin-top: 1.5px;
+  }
+  #dashboard
+  {
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 65px;
+  }
+.boxes-2
+{
+    display: flex;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8.83871px;
+    margin-left: 16%;
+}
+.boxes-2:hover
+{
+  cursor: pointer;
+}
+.hot-box
+{
+    border: 0.4px solid rgba(99, 99, 99, 0.5);
+    border-radius: 10px;
+}
+.boxes-2 .hot-box
+{
+    width: 265px;
+    height: 285px;
+    float: left;
+    margin: 20px;
+    text-align: left;
+    
+}
+.boxes-2 .hot-box h2
+{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    padding-left: 15px;
+    margin-top: 75%;
+    color: #394532;
+
+}
+.boxes-2 .hot-box p
+{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    padding-left: 15px;
+    color: #636363;
+}
+.boxes-2 .hot-box p:hover
+{
+  cursor:pointer;
+}
+.deals
+{
+  margin-top: 20px;
+}
+.hot-box:hover
+{
+  box-shadow: 5px 5px 5px 0px rgba(33,33,33,.2);
+}
+
+
+/* Bottom*/
+.bottom
+{
+  margin-top: 5px;
+  margin-left: 20%;
+}
+.bottom a
+{
+  font-size: 17px;
+  color: #626262;
+}
+.bottom-1
+{
+  margin-bottom: 2%;
+  margin-left: 20%;
+}
+.bottom-1 a
+{
+  font-size: 9.4px;
+  color: #626262;
+}
+.bottom-2
+{
+  margin-top: 5px;
+  margin-bottom: 50px;
+  margin-left: 20%;
+}
+
+
+/*BUTTONS*/
+.bottom-2 .button-1
+{
+    background-color: #85B04C; 
+    border-radius: 5px; color:white;
+    border: white; 
+    padding: 6px 15px 6px 15px;
+    font-size: 10px; 
+    line-height: 15.22px; 
+    margin-right: 15%;
+    margin-left: 3%;
+    width: 110px;
+}
+.bottom-2 .button-1:hover
+{
+    background: #394532;
+}
+.bottom-2 .button-2
+{
+    background-color: #85B04C; 
+    border-radius: 5px; color:white;
+    border: white; 
+    padding: 6px 15px 6px 15px;
+    font-size: 10px; 
+    line-height: 15.22px; 
+    margin-right: 18%;
+    width: 110px;
+}
+.bottom-2 .button-2:hover
+{
+    background: #394532;
+}
+.bottom-2 .button-3
+{
+    background-color: #85B04C; 
+    border-radius: 5px; color:white;
+    border: white; 
+    padding: 6px 15px 6px 15px;
+    font-size: 10px; 
+    line-height: 15.22px; 
+    margin-right: 16%;
+    width: 110px;
+}
+.bottom-2 .button-3:hover
+{
+    background: #394532;
+}
+.bottom-2 .button-4
+{
+    background-color: #85B04C; 
+    border-radius: 5px; color:white;
+    border: white; 
+    padding: 6px 15px 6px 15px;
+    font-size: 10px; 
+    line-height: 15.22px; 
+    width: 110px;
+}
+.bottom-2 .button-4:hover
+{
+    background: #394532;
+}

@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Navigation start-->
+    
+    <div class="navcontainer" id="navcontainer">
+        <div class="wrapper">         
+                <nav id="searchlist">
+                <input type="text" placeholder="Search...">
+                </nav>
+        </div>
+    </div>
+    <div class="logo">
+        <img src="for Tade/Logo.png" id="logo" >
+    </div>
+      <!--Navigation end-->
+
+      <!--menu select-->
+
+    <img src="for Tade/greenmenu.png" class="menu-icon" onclick="togglemenu()">
+    <div id="mySidenav" class="sidenav" style="position: absolute;">
+        <a href="#dashboard"><img src="for Tade/dash.png" class="dash-icon" onclick="togglemenu()" id="dash">Dashboard</a>
+        <a href="produce.html"><img src="for Tade/produce.png" class="produce-icon" onclick="togglemenu()" id="produce">Produce</a>
+        <a href="#transaction"><img src="for Tade/transact.png" class="transact-icon" onclick="togglemenu()" id="transact">Transaction</a>
+        <a href="#report"><img src="for Tade/report.png" class="report-icon" onclick="togglemenu()" id="report">Report</a>
+        <img src="for Tade/support.png" id="support">
+    </div>
+    
+
+    <!--Dashboard-->
+    <div class="main">
+            <a id="welcome">Welcome, Bayo!</a>
+   
+            <img src="for Tade/Home.png"  id="home" > <a id="dashboard">/Dashboard/</a>
+            <a id="summary">Summary</a>     
+
+    </div>
+    <div class="body">
+    <p><a id="summ">Summary</a><img src="for Tade/Line 2.png" class="line"></p>
+    </div>
+
+
+    <!--Box 1-->
+    <div class="boxes">
+            <div class="value-box" id="value" >
+                <div class="check-box" style="padding-left: 10%;">
+               <span style="position: absolute;"><img src="for Tade/image 1 (Traced).png" class="check-1" id="check" ></span>
+            
+                </div>
+                    <h2>Total received value</h2> 
+                    <h6 >N890,000</h6>
+            </div>
+        
+    <!--Box 1 End-->
+    
+     <!--Box 2-->
+
+     <div class="value-box" id="value" >
+        <div class="check-box" style="padding-left: 10%;">
+            <span style="position: absolute;"><img src="for Tade/pending.png" class="check-1" id="check" ></span>
+        </div>
+                <h2>Pending Order value</h2> 
+                <h6 >N420,760</h6>
+    </div>
+
+<!--Box 2 End-->
+
+ <!--Box 3-->
+
+ <div class="value-box" id="value" >
+    <div class="kg-box" style="padding-left: 10%;">
+        <span style="position: absolute;"><img src="for Tade/kg.png" class="check-1" id="check" ></span>
+    </div>
+            <h2>Received Value (Kgs)</h2> 
+            <a >280</a>
+</div>
+
+<!--Box 3 End-->
+
+ <!--Box 4-->
+
+        <div class="value-box" id="value" >
+            <div class="kg-box" style="padding-left: 10%;">
+                <span style="position: absolute;"><img src="for Tade/kg.png" class="check-1" id="check" ></span>
+            </div>
+                    <h2>Pending Value (Kgs)</h2> 
+                    <a >705</a>
+        </div>
+
+
+    </div>
+<!--Box 4 End-->
+
+<div class="body-1">
+    <p><a id="summ">Top  10 crops</a><img src="for Tade/Line 2.png" class="line-1"></p>
+</div>
+
+<!--LISTS-->
+
+<!--SN-->
+
+<div class="Food">
+<nav class="nav-down">
+    <ul id="foodList">
+        <li class="sn">SN.</li>
+        <li class="crop" >Crop</li>
+        <li  class="farm-farmer"> Farm/Farmer</li>
+        <li  class="kgs">KG(s) Available</li>
+        <li style="margin-right: 50px;">Harvest date</li>
+        <li style="margin-right: 60px;">Produce Rating</li>
+        <li> Action</li>
+        </ul>
+ </nav>
+</div>
+
+<!--ROW 1-->
+
+<div class="Food">
+    <nav class="nav-down-1">
+        <ul id="foodList-1">
+            <a>
+                <li>1</li>
+                <li style="margin-left: 25px;">Kale</li>
+                <li style="margin-left: 125px;">Highhill Agribusiness Farms</li>
+                <li style="margin-left: 25px; margin-right: 90px;">800Kg</li>
+                <li style="margin-right: 60px;">24/01/2023</li>
+                 <li style="margin-right: 16px;">Produce Rating</li>
+                <li><a></a><button style="background-color: #85B04C; border-radius: 10px; color:white; border: white; padding: 6px 15px 6px 15px; font-size: 12px; line-height: 15.22px;"  >MAKE ENQUIRY</button></li>
+            </a>
+        </ul>
+     </nav>
+</div>
+
+    <!--ROW 2-->
+
+<div class="Food">
+    <nav class="nav-down-1">
+        <ul id="foodList-1">
+            <a>
+                <li>2</li>
+                <li style="margin-left: 20px;">Sweet Corn</li>
+                <li style="margin-left: 75px;">Niji Farms</li>
+                <li style="margin-left: 154px; margin-right: 88px;">200Kg</li>
+                 <li style="margin-right: 60px;">02/03/2023</li>
+                 <li style="margin-right: 16px;">Produce Rating</li>
+                 <li><button  style="background-color: #85B04C; border-radius: 10px; color:white; border: white; padding: 6px 15px 6px 15px; font-size: 12px; line-height: 15.22px;">MAKE ENQUIRY</button></li>
+            </a>
+        </ul>
+     </nav>
+</div>
+
+    <!--ROW 3-->
+
+<div class="Food">
+    <nav class="nav-down-1">
+        <ul id="foodList-1">
+            <a>
+                <li>3</li>
+                <li style="margin-left: 18px;">Water Melon</li>
+                <li style="margin-left: 67px;">Nagari Group</li>
+                <li style="margin-left: 125px; margin-right: 92px;">100Kg</li>
+                <li style="margin-right: 60px;">09/04/2023</li>
+                <li style="margin-right: 16px;">Produce Rating</li>
+                <li><button  style="background-color: #85B04C; border-radius: 10px; color:white; border: white; padding: 6px 15px 6px 15px; font-size: 12px; line-height: 15.22px;">MAKE ENQUIRY</button></li>
+            </a>
+        </ul>
+     </nav>
+</div>
+
+    <!--ROW 4-->
+
+<div class="Food">
+    <nav class="nav-down-1">
+        <ul id="foodList-1">
+            <a>
+                <li>4</li>
+                <li style="margin-left: 19px;">Habanero Pepper</li>
+                <li style="margin-left: 27px;">Animal Care Services Konsult</li>
+                <li style="margin-left: 11px; margin-right: 74px;">10,000kg</li>
+                <li style="margin-right: 60px;">14/04/2023</li>
+                <li style="margin-right: 19px;">Produce Rating</li>
+                <li><button  style="background-color: #85B04C; border-radius: 10px; color:white; border: white; padding: 6px 15px 6px 15px; font-size: 12px; line-height: 15.22px;">MAKE ENQUIRY</button></li>
+            </a>    
+            </ul>
+     </nav>
+</div>
+
+    <!--ROW 5-->
+
+<div class="Food">
+    <nav class="nav-down-1">
+        <ul id="foodList-1">
+            <a>
+                <li>5</li>
+                <li style="margin-left: 18px;">Green Pepper</li>
+                <li style="margin-left: 62px;">Jovana Integrated Farms</li>
+                <li style="margin-left: 39px; margin-right: 95px;">120Kg</li>
+                <li style="margin-right: 59px;">24/04/2023</li>
+                <li style="margin-right: 16px;">Produce Rating</li>
+                <li><button  style="background-color: #85B04C; border-radius: 10px; color:white; border: white; padding: 6px 15px 6px 15px; font-size: 12px; line-height: 15.22px;">MAKE ENQUIRY</button></li>
+            </a>
+        </ul>
+     </nav>
+</div>
+
+    <!--ROW 6-->
+
+<div class="Food">
+    <nav class="nav-down-1">
+        <ul id="foodList-1">
+            <a>
+                <li>6</li>
+                <li style="margin-left: 20px;">Scotch Bonnet</li>
+                <li style="margin-left: 50px;">Ojemai Farms</li>
+                <li style="margin-left: 125px; margin-right: 90px;">650Kg</li>
+                <li style="margin-right: 64px;">25/04/2023</li>
+                <li style="margin-right: 16px;">Produce Rating</li>
+                <li><button  style="background-color: #85B04C; border-radius: 10px; color:white; border: white; padding: 6px 15px 6px 15px; font-size: 12px; line-height: 15.22px;">MAKE ENQUIRY</button></li>
+            </a>
+        </ul>
+     </nav>
+</div>
+
+    <!--ROW 7-->
+
+<div class="Food">
+    <nav class="nav-down-1">
+        <ul id="foodList-1">
+            <a>
+                <li>7</li>
+                <li style="margin-left: 20px;">Tomatoes</li>
+                <li style="margin-left: 89px;">Anadariya Farms</li>
+                <li style="margin-left: 100px; margin-right: 97px;">20Kg</li>
+                <li style="margin-right: 65px;">07/05/2023</li>
+                <li style="margin-right: 16px;">Produce Rating</li>
+                <li><button  style="background-color: #85B04C; border-radius: 10px; color:white; border: white; padding: 6px 15px 6px 15px; font-size: 12px; line-height: 15.22px;">MAKE ENQUIRY</button></li>
+            </a>
+        </ul>
+     </nav>
+</div>
+
+    <!--ROW 8-->
+
+<div class="Food">
+    <nav class="nav-down-1">
+        <ul id="foodList-1">
+            <a>
+                <li>8</li>
+                <li style="margin-left: 18px;">Yellow Pepper</li>
+                <li style="margin-left: 58px;">Ope Farms</li>
+                <li style="margin-left: 145px; margin-right: 90px;">140Kg</li>
+                <li style="margin-right: 66px;">30/05/2023</li>
+                <li style="margin-right: 16px;">Produce Rating</li>
+                <li><button  style="background-color: #85B04C; border-radius: 10px; color:white; border: white; padding: 6px 15px 6px 15px; font-size: 12px; line-height: 15.22px;">MAKE ENQUIRY</button></li>
+            </a>
+        </ul>
+     </nav>
+</div>
+
+    <!--ROW 9-->
+
+<div class="Food">
+    <nav class="nav-down-1">
+        <ul id="foodList-1">
+            <a>
+                <li>9</li>
+                <li style="margin-left: 15px;">Green Pepper</li>
+                <li style="margin-left: 65px;">Sebore Farm</li>
+                <li style="margin-left: 128px; margin-right: 75px;">5,000Kg</li>
+                <li style="margin-right: 67px;">03/06/2023</li>
+                <li style="margin-right: 16px;">Produce Rating</li>
+                <li><button  style="background-color: #85B04C; border-radius: 10px; color:white; border: white; padding: 6px 15px 6px 15px; font-size: 12px; line-height: 15.22px;">MAKE ENQUIRY</button></li>
+            </a>
+        </ul>
+     </nav>
+</div>
+
+    <!--ROW 10-->
+
+<div class="Food">
+    <nav class="nav-down-1">
+        <ul id="foodList-1">
+            <a>
+                <li>10</li>
+                <li style="margin-left: 10px;">Egg Plant</li>
+                <li style="margin-left: 92px;">Ajayi Farms</li>
+                <li style="margin-left: 140px; margin-right: 97px;">59Kg</li>
+                <li style="margin-right: 75px;">17/06/2023</li>
+                <li style="margin-right: 16px;">Produce Rating</li>
+                <li><button  style="background-color: #85B04C; border-radius: 10px; color:white; border: white; padding: 6px 15px 6px 15px; font-size: 12px; line-height: 15.22px;">MAKE ENQUIRY</button></li>
+            </a>
+         </ul>
+     </nav>
+</div>
+
+<!--HOT DEALS-->
+
+<div class="body-1">
+    <p><a id="summ">Hot deals</a><img src="for Tade/Line 2.png" class="line-2"></p>
+</div>
+
+
+
+<!--Hot deal images-->
+
+<!--Box 1-->
+<div class="boxes-2">
+    <div class="hot-box" id="value" >
+        <div class="hotbox" style="padding-left: 10%;">
+       <span style="position: absolute;"><img src="for Tade/sweetcorn.png" class="deals"></span>
+    
+        </div>
+            <h2>Sweet Corn</h2> 
+            <p style="margin-bottom: 70px;">At vero eos et accusamus et iusto odio dignissimos ducimus qui </p>
+    </div>
+<!--Box 1 End-->
+
+<!--Box 2-->
+
+<div class="hot-box" id="value" >
+<div class="hotbox" style="padding-left: 10%;">
+    <span style="position: absolute;"><img src="for Tade/redbellpepper.png" class="deals"></span>
+</div>
+        <h2>Red bell pepper</h2> 
+        <p style="margin-bottom: 70px;" >At vero eos et accusamus et iusto odio dignissimos ducimus qui </p>
+</div>
+<!--Box 2 End-->
+
+<!--Box 3-->
+
+<div class="hot-box" id="value" >
+<div class="hotbox" style="padding-left: 10%;">
+<span style="position: absolute;"><img src="for Tade/greenbellpepper.png" class="deals"></span>
+</div>
+    <h2>Green bell pepper</h2> 
+    <p style="margin-bottom: 70px;">At vero eos et accusamus et iusto odio dignissimos ducimus qui </p>
+</div>
+
+<!--Box 3 End-->
+
+<!--Box 4-->
+
+<div class="hot-box" id="value" >
+    <div class="hotbox" style="padding-left: 10%;">
+        <span style="position: absolute;"><img src="for Tade/tomatoes.png" class="deals"></span>
+    </div>
+            <h2>Tomatoes</h2> 
+            <p style="margin-bottom: 70px;">At vero eos et accusamus et iusto odio dignissimos ducimus qui</p>
+</div>
+
+</div>
+
+<!--Box 4 End-->
+
+<!--Bottom-->
+
+<div class="bottom">
+            <a style="margin-right: 110px;">Available Qty:   2 Tonnes</a>
+            <a style="margin-right: 130px;">Available Qty:   2 Tonnes</a>
+            <a style="margin-right: 110px;">Available Qty:   12 Tonnes</a>
+            <a>Available Qty:   12 Tonnes</a>
+</div>
+
+
+<div class="bottom-1">
+    <a style="margin-right: 109px;">NB: Mininum order Quantity (MoQ) : 200Kg</a>
+    <a style="margin-right: 130px;">NB: Mininum order Quantity (MoQ) : 200Kg</a>
+    <a style="margin-right: 113px;">NB: Mininum order Quantity (MoQ) : 200Kg</a>
+    <a>NB: Mininum order Quantity (MoQ) : 200Kg</a>
+</div>
+
+<div class="bottom-2">
+    <button class="button-1">VIEW ITEM</button>
+    <button class="button-2">VIEW ITEM</button>
+    <button class="button-3">VIEW ITEM</button>
+    <button class="button-4">VIEW ITEM</button>
+</div>
+
+<!--Bottom-->
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var mySidenav = document.getElementById("mySidenav");
+        mySidenav.style.maxHeight = "300px";
+        mySidenav.style.maxWidth = "300px";
+        function togglemenu()
+        {
+            if(mySidenav.style.maxHeight == "300px")
+                    {
+                        mySidenav.style.maxHeight = "0px"
+                    }
+            else
+                    {
+                        mySidenav.style.maxHeight = "300px"
+                    }
+        }
+    </script>
+
+</body>
+</html>

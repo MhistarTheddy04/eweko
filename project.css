@@ -1,0 +1,562 @@
+@font-face {
+    font-family: 'EuclidCircular';
+    src: url(euclid-circular/Euclid\ Circular\ B\ Medium.ttf);
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'EuclidCircular';
+}
+html
+{
+    scroll-behavior: smooth;
+    transition-duration: 10ms;
+}
+
+
+/*Navigation*/
+.navcontainer
+{
+    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+
+    background-color: white;
+ 
+}
+.wrapper
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.logo
+{   
+    cursor: pointer;
+    margin: 30px  ;
+
+}
+.menu-icon
+{
+    width: 25px;
+    cursor: pointer;
+    display: none;
+    z-index: 10;
+}
+nav
+{
+    flex: 1;
+    text-align: right;
+}
+nav ul li
+{
+    list-style: none;
+    color: #000000;
+    margin-right: 30px;
+    display: inline-block;
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'EuclidCircular';
+    margin-bottom: 100px;
+}
+nav ul li a:hover
+{
+    color: #50A448;
+    font-size: 1.2rem;
+    transition-duration: 200ms;
+}
+
+
+/*Body*/
+
+.row
+{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    align-items: center;
+    margin-bottom: 50px;
+    text-align: left;
+    
+}
+.col-1
+{
+    flex-basis: 40%;
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+}
+.col-1 h1
+{
+    font-weight: 700;
+    font-size: 55px;
+    color: #000000;
+    margin-bottom: 15px;
+    margin: 0;
+}
+.col-1 h5
+{
+    font-family: 'EuclidCircular';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 140%;
+    color: #000000;
+    margin-bottom: 24px;
+}
+.col-1 p
+{
+    font-family: 'EuclidCircular';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 20px;
+    line-height: 140%;
+    margin-bottom: 13px;
+}
+.col-1 a
+{
+    font-size: 18px;
+    color: white;
+    text-decoration: none; 
+}
+button
+{
+    width: 140px;
+    border: 0;
+    padding: 7px 10px 7px 10px;
+    outline: none;
+    color: white;
+    background: #85B04C;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+button:hover
+{
+    background-color: #394532;
+}
+.hero-image
+{
+    position: relative;
+    flex-basis: 47%;
+    display: flex;
+    align-items: center;
+}
+.hero-image .image-1
+{
+    width: 95%;
+   padding-left: 10px;
+
+}
+
+/*Line 2 */
+
+
+.hero-1
+{
+    background-color: #BEDCA680;
+    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin-bottom: 50px;
+ 
+
+}
+.col-2
+{
+    flex-basis: 45%;
+    position: relative;
+
+}
+.image
+{
+    position: relative;
+    flex-basis: 45%;
+    display: flex;
+    align-items: center;
+    padding: 50px 0px;
+    margin-right: 10px;
+}
+.hero-1 .image-2
+{
+    width: 100%;
+    border-radius: 30px;
+}
+.hero-1 h1
+{
+    font-family: 'EuclidCircular';
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 22px;
+}
+.hero-1 p
+{
+    font-family: 'EuclidCircular';
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+.hero-1 a
+{
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    background: #394532;
+    border-radius: 16px;
+    padding: 9px 20px;
+    display: inline-block;
+    transition: all ease .5s;
+    z-index: 1;
+    text-align: center;
+    -webkit-transition: all ease .5s;
+    margin-bottom: 30px;
+}
+.hero-1 a:hover
+{
+    background-color: #50A448;
+}
+
+
+/*line 3*/
+
+
+.hero-2
+{
+    background-color: white;
+    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin-bottom: 50px;
+}
+.content-1
+{
+    flex-basis: 45%;
+    position: relative;
+}
+
+.hero-2 h1
+{
+    margin: 0;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.hero-2 p
+{
+    font-family: 'EuclidCircular';
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.hero-2 a
+{
+    background: #50A448;
+    border-radius: 16px;
+    padding: 9px 20px;
+    text-decoration: none;
+    transition: all ease .5s;
+    z-index: 1;
+    text-align: center;
+    -webkit-transition: all ease .5s;
+}
+.hero-2 a:hover
+{
+    background-color: #394532;
+}
+.farmers
+{
+    position: relative;
+    flex-basis: 40%;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.hero-2 .image-3
+{
+    width: 100%;
+    padding-right: 30px;
+}
+
+
+/*Line 4*/
+
+
+.hero-3
+{
+    background-color: #394532;
+    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  
+}
+.content-2
+{
+    flex-basis: 45%;
+    position: relative;
+}
+.hero-3 h1
+{
+    font-weight: 700;
+    font-size: 37px;
+    margin-bottom: 15px;
+    color: white;
+    margin-top: 100px;
+}
+.hero-3 p
+{
+    margin-bottom: 20px;
+    color: white;
+    font-size: 16px;
+}
+
+.hero-3 a
+{
+    background: #50A448;
+    border-radius: 16px;
+    padding: 9px 30px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.truck
+{
+   
+    flex-basis: 40%;
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+}
+.hero-3 .image-4
+{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
+/*Line 5*/
+
+section .OUR-PARTNERS
+{
+    background-color: white;
+    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.content-3
+{
+    flex-basis: 100%;
+    width: 100%;
+   
+}
+.hero-4 h1
+{
+
+    font-family: 'EuclidCircular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: #50A448;
+}
+
+.hero-4 p
+{
+    font-family: 'EuclidCircular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+    text-align: center;
+    color: #394532;
+}
+.BUYER
+{
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+ .BUYER .a
+{
+    background-color: #394532;
+    padding: 7px 20px;
+    border-radius: 15px;
+}
+.BUYER .a:hover
+{
+    background-color: #50A448;
+}
+.text h2
+{
+
+    font-family: 'EuclidCircular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 63px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+
+
+    color: #394532;
+}
+.hero-4 a
+{
+
+    text-decoration: none;
+    transition: all ease .5s;
+    z-index: 1;
+    text-align: center;
+    -webkit-transition: all ease .5s;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+
+.images
+{
+   
+    flex-basis: 40%;
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+    height: 50px;
+}
+.hero-4 .partner-1
+{
+    width: 100%;
+}
+
+
+
+
+
+/*footer*/
+
+
+ footer
+{
+    background: rgba(190, 220, 166, 0.5);
+    height: 60px;
+    text-align: center;
+ }
+ .footer
+ {
+    color: #394532;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    display: block;
+    font-size: 19px;
+    font-weight: 600;
+    padding-top: 30px;
+
+ }
+
+
+
+
+
+
+
+
+
+
+/* media queries for web responsive */
+
+@media only screen and (max-width:700px)
+{
+    nav ul
+    {
+        width: 80%;
+        background:#394532;
+        position: absolute;
+        top: 95px;
+        right: 0;
+        z-index: 4;
+        text-align: left;
+        padding: 0px 50px;    
+    }
+    nav ul li 
+    {
+        display: block;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    nav ul li a
+    {
+        color: white;
+    }
+    .menu-icon
+    {
+        display: block;
+    }
+    #menuList
+    {
+        overflow: hidden;
+        transition: 0.5s;
+    }
+    .row
+    {
+        flex-direction: column;
+        margin: 50px 0px;
+    }
+    .hero-1
+    {
+        flex-direction: column;
+        margin: 50px 0px;
+    }
+    .hero-2
+    {
+        flex-direction: column;
+        margin: 50px 0px;
+    }
+    .hero-3
+    {
+        flex-direction: column;
+        margin: 50px 0px;
+    }
+    footer p
+    {
+        flex-direction: column;
+        margin: 50px 0px;
+    }
+     .hero-4
+    {
+        flex-direction: column;
+        margin: 50px 0px;
+    }
+}
